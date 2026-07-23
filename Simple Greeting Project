@@ -13,16 +13,6 @@ def greet(name: str) -> str:
     """
     return f"Hello, {name}! Welcome to this GitHub project."
 
-
-if __name__ == "__main__":
-    user = input("Enter your name: ")
-    print(greet(user))
-def greet(name: str) -> str:
-    """
-    Return a greeting message for the given name.
-    """
-    return f"Hello, {name}! Welcome to this GitHub project."
-
 if __name__ == "__main__":
     user = input("Enter your name: ")
     print(greet(user))
@@ -35,3 +25,13 @@ def greet(name: str) -> str:
     Return a greeting message for the given name.
     """
     return f"Hello, {name}! Welcome to this GitHub project."
+
+if __name__ == "__main__":
+    user = input("Enter your name: ")
+    print(greet(user))
+def greet(name: str) -> str:
+    """
+    Return a greeting message for the given name.
+    """
+    return f"Hello, {name}! Welcome to this GitHub project."
+
